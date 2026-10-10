@@ -138,7 +138,7 @@ Take a screenshot of `git log --oneline -5` showing your main-branch commits.
 
 ### 2.3 Create a new branch
 
-Create and switch to a new branch. This example uses `cherry-pick-practice`; use another name if that branch already exists.
+
 
 ```powershell
 git switch -c cherry-pick-practice
@@ -160,7 +160,7 @@ Make 2–3 separate changes and commit each one separately.
 
 ```powershell
 git add <file-name>
-git commit -m "Add first feature branch change"
+git commit -m "commit branch"
 
 # Make another separate change:
 git add <file-name>
@@ -172,11 +172,11 @@ git log --oneline -5
 
 **Screenshot 7 — Commits on the new branch**
 
-Take a screenshot of `git log --oneline -5` showing the commits made on `cherry-pick-practice`.
+Take a screenshot of `git log --oneline -5` showing the commits .
 
 > Insert screenshot here.
 
-![Screenshot 7: Feature branch commits](screenshots/task2-04-feature-commits.png)
+![ Feature branch commits](screenshots/task2-04-feature-commits.png)
 
 ### 2.5 Identify the specific commit to cherry-pick
 
@@ -195,13 +195,13 @@ e4f5g6h Add first feature branch change
 
 Your actual hashes and commit messages will be different.
 
-**Commit selected for cherry-pick:** `<paste-your-commit-hash-here>`
+**Commit selected for cherry-pick:** 
 
 **Screenshot 8 — Identify the commit**
 
 Take a screenshot of `git log --oneline` with the chosen commit visible. Make sure the commit hash and message can be read.
 
-> Insert screenshot here.
+
 
 ![Screenshot 8: Selected commit](screenshots/task2-05-selected-commit.png)
 
