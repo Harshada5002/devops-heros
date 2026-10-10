@@ -48,9 +48,9 @@ Replace `<file-name>` with the actual tracked file you edited.
 
 Take a screenshot showing `git add`, `git commit -m`, and the resulting commit output. You may include `git status` or `git log -1 --oneline` in the same screenshot.
 
-> Insert screenshot here.
 
-![Screenshot 2: git commit -m](screenshots/task1-02-commit-m.png)
+
+![ git commit -m](screenshots/task1-02-commit-m.png)
 
 ### 1.3 Test `git commit -a -m`
 
@@ -70,7 +70,7 @@ Take a screenshot showing the modified tracked file, the command, and the succes
 
 > Insert screenshot here.
 
-![Screenshot 3: git commit -a -m](screenshots/task1-03-commit-a-m.png)
+![ git commit -a -m](screenshots/task1-03-commit-a-m.png)
 
 ### 1.4 Comparison
 
