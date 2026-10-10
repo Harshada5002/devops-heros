@@ -133,9 +133,8 @@ Replace each `<file-name>` with the file you actually changed. Make **2–4 comm
 
 Take a screenshot of `git log --oneline -5` showing your main-branch commits.
 
-> Insert screenshot here.
 
-![Screenshot 5: Main commits](screenshots/task2-02-main-commits.png)
+![ Main commits](screenshots/task2-02-main-commits.png)
 
 ### 2.3 Create a new branch
 
@@ -151,9 +150,9 @@ git status
 
 Take a screenshot showing the new branch name and `git branch` output.
 
-> Insert screenshot here.
 
-![Screenshot 6: New branch](screenshots/task2-03-new-branch.png)
+
+![ New branch](screenshots/task2-03-new-branch.png)
 
 ### 2.4 Make 2–3 commits on the new branch
 
