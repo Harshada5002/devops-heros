@@ -285,31 +285,5 @@ Open the repository on GitHub and show the relevant branch/commit history. Take 
 - [ ] Added screenshots in the marked locations.
 - [ ] Uploaded this README and any screenshot files to GitHub.
 
-## Screenshots Folder
 
-Save screenshots in a folder named `screenshots` in the repository, using the filenames shown below:
 
-```text
-screenshots/
-├── task1-01-status.png
-├── task1-02-commit-m.png
-├── task1-03-commit-a-m.png
-├── task2-01-main-start.png
-├── task2-02-main-commits.png
-├── task2-03-new-branch.png
-├── task2-04-feature-commits.png
-├── task2-05-selected-commit.png
-├── task2-06-cherry-pick.png
-├── task2-07-verify-main.png
-└── task2-08-github.png
-```
-
-To add the README and screenshots to Git:
-
-```powershell
-git add README.md screenshots/
-git commit -m "Document Git commit and cherry-pick assignment"
-git push
-```
-
-If you are not ready to commit the documentation yet, you can add and commit it later.
