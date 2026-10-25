@@ -5,6 +5,6 @@ metadata:
 spec:
   restartPolicy: Never
   containers:
-    - name: task
+    - name: failure
       image: busybox:1.36
-      command: ["sh", "-c", "echo 'Task started'; sleep 5; echo 'Task failed'; exit 1"]
+      command: ["sh", "-c", "echo 'Demonstrating a failed container'; exit 1"]

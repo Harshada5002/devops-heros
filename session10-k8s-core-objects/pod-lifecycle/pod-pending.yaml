@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: lifecycle-pending
+spec:
+  nodeSelector:
+    session10-lab-node: intentionally-missing
+  containers:
+    - name: nginx
+      image: nginx:1.26
